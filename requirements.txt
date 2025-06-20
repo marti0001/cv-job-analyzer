@@ -1,0 +1,9 @@
+python-dotenv
+jupyternotebook
+gensim
+torch
+transformers
+tqdm
+openai
+gradio
+PyPDF2

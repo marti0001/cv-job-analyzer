@@ -24,6 +24,16 @@ All these processes are combined into a single **Gradio web interface** for easy
 - **Multiple LLM Calls**: Each stage (CV parsing, job analysis, matching) uses separate prompts and API calls for precise outputs.
 - **Gradio Interface**: Interactive and user-friendly web app for file upload, text input, and displaying results.
 
+
+##  🌟 Key Techniques
+- ✅ **Multiple LLM Calls** – The system uses separate prompt templates and API calls for:
+    - CV parsing
+    - Job description analysis
+    - Candidate-job matching
+
+- ✅ **Prompt Engineering** – Custom prompts designed for each LLM call to ensure focused, actionable outputs.
+
+- ✅ **Interactive Interface** – Unified Gradio app for uploading CVs, entering job offers, and viewing results.
 ---
 
 ## 🛠️ **Technologies & Tools**
@@ -44,6 +54,10 @@ All these processes are combined into a single **Gradio web interface** for easy
 ```bash
 git clone https://github.com/your-username/cv-job-analyzer.git
 cd cv-job-analyzer
+```
+### 2️⃣ **Start Program**
+```bash
+python main.py
 ```
 ---
 ## 🚀 Project Structure  
